@@ -1,0 +1,564 @@
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+    &__nightmaric{
+        height: 900px;
+        width: 400px;
+        
+
+        &__image{
+            max-width: 100%;;
+            height: 100%;
+
+        }
+
+       
+
+
+    }
+
+    &__shadow{
+        height: 900px;
+        width: 400px;
+        
+        
+        &__image{
+            max-width: 100%;;
+            height: 100%;
+
+        }
+        
+        
+    }
+    .center1{
+        position: absolute;
+        top: 50%;
+        left: 61%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+    
+    }
+    .center2{
+        position: absolute;
+        top: 50%;
+        right: 51%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    a{
+        color: white;
+    }
+    
+   
+}
+
+.options:hover .img{
+    opacity: 0.3;
+}
+
+.options:hover .center1{
+    opacity: 1;
+}
+
+.options:hover .center2{
+    opacity: 1;
+}
+
+//page content
+
+.synopsis{
+    height: 100px;
+    width: 1000px;
+    background-color: red;
+    .paragraph{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+}
+.factions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    position: relative;
+    
+    &__nightmaric{
+    
+    height: 900px;
+    width: 400px;
+  
+    &__img{
+        max-width: 100%;
+        height: 100%
+        }
+
+    }
+
+    &__shadow{
+   
+    height: 900px;
+    width: 400px;
+  
+    &__img {
+        max-width: 100%;
+        height: 100%
+        }
+
+    }
+    .center3{
+       
+
+        position: absolute;
+        top: 50%;
+        right: 55%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+     
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+
+      
+    }
+
+    .center4{
+        position: absolute;
+        top: 50%;
+        left: 61%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+       
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+    }
+    a{
+        color: white;
+    }
+
+    
+}
+
+.factions:hover .img{
+    opacity: 0.3;
+}
+
+.factions:hover .center3{
+    opacity: 1;
+}
+
+.factions:hover .center4{
+    opacity: 1;
+}
+
+
+//Nightmaric Factions
+
+.strains{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+    &__zegana{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__soul{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__cyberina{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__ragdoll{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+
+    .center5{
+        position: absolute;
+        top: 50%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+    
+    }
+    .center6{
+        position: absolute;
+        top: 50%;
+        right: 48%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    .center7{
+        position: absolute;
+        top: 50%;
+        right: 35%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    .center8{
+        position: absolute;
+        top: 50%;
+        right: 20%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+       
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    a{
+        color: white;
+    }
+
+    
+}
+
+.strains:hover .img{
+    opacity: 0.3;
+}
+
+.strains:hover .center5{
+    opacity: 1;
+}
+
+.strains:hover .center6{
+    opacity: 1;
+}
+.strains:hover .center7{
+    opacity: 1;
+}
+
+.strains:hover .center8{
+    opacity: 1;
+}
+
+//shadow sect
+
+.sects{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+    &__darkena{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__theresa{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__baxter{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__veronica{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__spirit{
+        width: 150px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__syriana{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__zora{
+        width: 200px;
+        height: 300px;
+        background-color: red;
+        
+        &__img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+
+    .center9{
+        position: absolute;
+        top: 50%;
+        right: 77%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    .center10{
+        position: absolute;
+        top: 50%;
+        right: 66%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+        
+        @media screen and(max-width:900px){
+            opacity: 0;
+        }
+        
+
+    }
+    .center11{
+        position: absolute;
+        top: 50%;
+        right: 56%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+       
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+
+    .center12{
+        position: absolute;
+        top: 50%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+       
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    .center13{
+        position: absolute;
+        top: 50%;
+        right: 36%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+       
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    .center14{
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+       
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+
+    .center15{
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0;
+       
+        
+        @media screen and(max-width:900px){
+            opacity: 1;
+        }
+        
+
+    }
+    a{
+        color: white;
+    }
+
+    
+
+
+}
+
+.sects:hover .img{
+    opacity: 0.3;
+}
+
+.sects:hover .center9{
+    opacity: 1;
+}
+
+.sects:hover .center10{
+    opacity: 1;
+}
+.sects:hover .center11{
+    opacity: 1;
+}
+
+ .sects:hover .center12{
+    opacity: 1;
+}
+.sects:hover .center13{
+    opacity: 1;
+}
+.sects:hover .center14{
+    opacity: 1;
+}
+.sects:hover.center15{
+    opacity: 1;
+}
+
+
+
+
