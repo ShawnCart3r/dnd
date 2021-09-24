@@ -90,7 +90,7 @@
 .synopsis{
     height: 100px;
     width: 1000px;
-    background-color: red;
+    
     .paragraph{
         text-align: center;
         margin-top: 10px;
@@ -246,7 +246,7 @@
 
     .center5{
         position: absolute;
-        top: 50%;
+        top: 65%;;
         left: 26%;
         transform: translate(-50%, -50%);
         color: white;
@@ -262,7 +262,7 @@
     }
     .center6{
         position: absolute;
-        top: 50%;
+        top: 65%;;
         right: 53%;
         transform: translate(-50%, -50%);
         color: white;
@@ -278,7 +278,7 @@
     }
     .center7{
         position: absolute;
-        top: 50%;
+        top: 65%;;
         right: 41%;
         transform: translate(-50%, -50%);
         color: white;
@@ -294,7 +294,7 @@
     }
     .center8{
         position: absolute;
-        top: 50%;
+        top: 65%;;
         right: 25%;
         transform: translate(-50%, -50%);
         color: white;
@@ -311,7 +311,7 @@
     }
     .center16{
         position: absolute;
-        top: 50%;
+        top: 65%;;
         right: 16%;
         transform: translate(-50%, -50%);
         color: white;
@@ -437,7 +437,7 @@
 
     .center9{
         position: absolute;
-        top: 50%;
+        top: 65%;
         right: 77%;
         transform: translate(-50%, -50%);
         color: white;
@@ -453,7 +453,7 @@
     }
     .center10{
         position: absolute;
-        top: 50%;
+        top: 65%;
         right: 66%;
         transform: translate(-50%, -50%);
         color: white;
@@ -469,7 +469,7 @@
     }
     .center11{
         position: absolute;
-        top: 50%;
+        top: 65%;
         right: 56%;
         transform: translate(-50%, -50%);
         color: white;
@@ -487,7 +487,7 @@
 
     .center12{
         position: absolute;
-        top: 50%;
+        top: 65%;
         left: 52%;
         transform: translate(-50%, -50%);
         color: white;
@@ -504,7 +504,7 @@
     }
     .center13{
         position: absolute;
-        top: 50%;
+        top: 65%;
         right: 36%;
         transform: translate(-50%, -50%);
         color: white;
@@ -521,7 +521,7 @@
     }
     .center14{
         position: absolute;
-        top: 50%;
+        top: 65%;
         right: 25%;
         transform: translate(-50%, -50%);
         color: white;
@@ -539,7 +539,7 @@
 
     .center15{
         position: absolute;
-        top: 50%;
+        top: 65%;
         right: 16%;
         transform: translate(-50%, -50%);
         color: white;
@@ -597,13 +597,50 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     &_one{
         width: 300px;
-        height: 700px;
-        background-color: red;
+        height: 50px;
+       
+        text-align: center;
+        
+    }
+    .name{
+        font-size: 30px;
+        margin-top: 10px;
+        text-decoration:underline;
     }
 }
+
+.classes{
+    margin-top: 330px;
+    text-align: center;
+    font-size: 35px;
+   
+
+}
+.description{
+   
+    height: 100px;
+    width: 1000px;
+    
+    .paragraph {
+        .paragraph{
+            text-align: center;
+            margin-top: 10px;
+        }
+    
+    }
+   
+}
+
+.character{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
 
 //strains stats
 
