@@ -39,6 +39,13 @@ a {
   width: 400px;
 }
 
+@media screen and (max-width: 400px) {
+  .options__nightmaric {
+    height: 500px;
+    width: 200px;
+  }
+}
+
 .options__nightmaric__image {
   max-width: 100%;
   height: 100%;
@@ -47,6 +54,13 @@ a {
 .options__shadow {
   height: 900px;
   width: 400px;
+}
+
+@media screen and (max-width: 400px) {
+  .options__shadow {
+    height: 500px;
+    width: 200px;
+  }
 }
 
 .options__shadow__image {
@@ -66,9 +80,10 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .options .center1 {
     opacity: 1;
+    left: 75%;
   }
 }
 
@@ -84,9 +99,16 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .options .center2 {
     opacity: 1;
+    right: 55%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .options .center2 {
+    right: 33%;
   }
 }
 
@@ -116,6 +138,18 @@ a {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .synopsis .paragraph {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .synopsis .paragraph {
+    font-size: 10px;
+  }
+}
+
 .factions {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,6 +170,13 @@ a {
   width: 400px;
 }
 
+@media screen and (max-width: 400px) {
+  .factions__nightmaric {
+    height: 500px;
+    width: 200px;
+  }
+}
+
 .factions__nightmaric__img {
   max-width: 100%;
   height: 100%;
@@ -144,6 +185,13 @@ a {
 .factions__shadow {
   height: 900px;
   width: 400px;
+}
+
+@media screen and (max-width: 400px) {
+  .factions__shadow {
+    height: 500px;
+    width: 200px;
+  }
 }
 
 .factions__shadow__img {
@@ -166,6 +214,13 @@ a {
 @media screen and (max-width: 900px) {
   .factions .center3 {
     opacity: 1;
+    right: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .factions .center3 {
+    right: 44%;
   }
 }
 
@@ -184,6 +239,13 @@ a {
 @media screen and (max-width: 900px) {
   .factions .center4 {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .factions .center4 {
+    opacity: 1;
+    left: 75%;
   }
 }
 
@@ -212,6 +274,18 @@ a {
           justify-content: center;
   gap: 10px;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .strains {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 .strains__zegana {
@@ -284,6 +358,7 @@ a {
 @media screen and (max-width: 900px) {
   .strains .center5 {
     opacity: 1;
+    top: 35%;
   }
 }
 
@@ -398,10 +473,21 @@ a {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 900px) {
+  .sects {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
 .sects__darkena {
   width: 200px;
   height: 300px;
-  background-color: red;
 }
 
 .sects__darkena__img {
@@ -487,9 +573,20 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .sects .center9 {
     opacity: 1;
+    color: white;
+    top: 245%;
+    right: 39%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sects .center9 {
+    opacity: 1;
+    top: 310%;
+    right: 25%;
   }
 }
 
@@ -505,9 +602,20 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .sects .center10 {
-    opacity: 0;
+    opacity: 1;
+    color: white;
+    top: 215%;
+    right: 39%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sects .center10 {
+    opacity: 1;
+    top: 270%;
+    right: 25%;
   }
 }
 
@@ -523,9 +631,19 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .sects .center11 {
     opacity: 1;
+    top: 190%;
+    right: 41%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sects .center11 {
+    opacity: 1;
+    top: 235%;
+    right: 31%;
   }
 }
 
@@ -541,9 +659,20 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .sects .center12 {
     opacity: 1;
+    color: white;
+    top: 155%;
+    right: 30%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sects .center12 {
+    opacity: 1;
+    top: 195%;
+    right: 20%;
   }
 }
 
@@ -559,9 +688,18 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .sects .center13 {
     opacity: 1;
+    top: 120%;
+    right: 43%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sects .center13 {
+    top: 150%;
+    right: 37%;
   }
 }
 
@@ -577,16 +715,25 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .sects .center14 {
     opacity: 1;
+    top: 90%;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sects .center14 {
+    top: 120%;
+    right: 30%;
   }
 }
 
 .sects .center15 {
   position: absolute;
   top: 65%;
-  right: 16%;
+  right: 10%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: white;
@@ -595,9 +742,17 @@ a {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .sects .center15 {
     opacity: 1;
+    top: 65%;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sects .center15 {
+    top: 75%;
   }
 }
 
@@ -648,6 +803,18 @@ a {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .classess {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .classess {
+    font-size: 9px;
+  }
+}
+
 .classess_one {
   width: 300px;
   height: 50px;
@@ -660,10 +827,35 @@ a {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 800px) {
+  .classess .name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .classess .name {
+    margin-top: 25px;
+    font-size: 15px;
+  }
+}
+
 .classes {
   margin-top: 330px;
   text-align: center;
   font-size: 35px;
+}
+
+@media screen and (max-width: 800px) {
+  .classes {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .classes {
+    margin-top: 450px;
+  }
 }
 
 .description {
@@ -671,9 +863,16 @@ a {
   width: 1000px;
 }
 
-.description .paragraph .paragraph {
-  text-align: center;
-  margin-top: 10px;
+@media screen and (max-width: 800px) {
+  .description .paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .description .paragraph {
+    font-size: 12px;
+  }
 }
 
 .character {
@@ -692,6 +891,12 @@ a {
           justify-content: center;
   margin-top: 30px;
   font-size: 60px;
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 30px;
+  }
 }
 
 .title2 {
